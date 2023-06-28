@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+.blank {
+  border: 5px solid transparent;
+  animation: blink 1s infinite;
+}
+
+.blank-radius {
+  border-radius: 40px;
+  border: 5px solid transparent;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: red;
+  }
+
+  100% {
+    border-color: transparent;
+  }
+}
+
+.req::after {
+  content: "必須";
+  color: red;
+  font-weight: bold;
+  font-size: 0.8em;
+  margin-left: 0.25em;
+}
+
+.block {
+  position: absolute;
+  top: 400px;
+  left: 360px;
+  z-index: 100;
+  text-align: center;
+}
+
+
+
+
+
+
+.animate72 {
+  -webkit-animation-name: animate72;
+  -moz-animation-name: animate72;
+  -o-animation-name: animate72;
+  /* animation-name: animate72; */
+  /* animation-duration: 1s!important; */
+  -webkit-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  -moz-animation-duration: 1s !important;
+  -webkit-animation-timing-function: ease-in;
+  -moz-animation-timing-function: ease-in;
+  -o-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.bg {
+  background-color: #f8ebc6;
+}
+
+a:link {
+  color: #37859a;
+  text-decoration: underline;
+}
+
+a {
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.blank-radius {
+  border-radius: 40px;
+  border: 5px solid transparent;
+  animation: blink 1s infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
