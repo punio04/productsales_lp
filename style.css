@@ -21125,6 +21125,19 @@ ul {
     background-color: #fff !important;
     padding: 40px 0 20px 0!important;
   }
+
+  .form_bg {
+    background-color: #f8f7f1!important;
+    margin: 0px!important;
+    padding: 10px 0 50px 0!important;
+  }
+
+    .regist_form {
+      margin: 0 5%!important;
+      border: double!important;
+      padding: 2%!important;
+      background-color: #fff!important;
+    }
 }
 
 .bg_white {
@@ -21157,4 +21170,21 @@ ul {
   margin-top: 0px;
   padding: 8px;
   background: #003670;
+}
+
+.regist_form {
+  margin: 0 7%;
+  border: double;
+  padding: 3%;
+  background-color: #fff;
+}
+
+.form_bg {
+  background-color: #f8f7f1;
+  margin: 0 168px;
+  padding: 40px 0 90px 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }
