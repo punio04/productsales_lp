@@ -19927,7 +19927,7 @@ ul.prf_list li {
 
 .device3 {
   margin: 0;
-  padding: 0px 0 25px 0 !important;
+  padding: 0px 0 15px 0 !important;
   text-align: center;
 }
 
@@ -20013,7 +20013,7 @@ ul.prf_list li {
 
   .device3 {
     margin: 0;
-    padding: 10px 0px 65px 0px !important;
+    padding: 10px 0px 35px 0px !important;
     text-align: center;
   }
 
@@ -21141,17 +21141,11 @@ ul {
 
   .button_solid007 {
     text-align: center;
-    padding: 35px 0 13px 0!important;
+    padding: 0px 0 13px 0!important;
   }
 
   .button_solid007 p {
-    font-size: 15px!important;
-  }
-
-  .button_solid007 p:before,
-  .button_solid007 p:after {
-    margin: 0px 0px!important;
-    width: 28px!important;
+    font-size: 13px!important;
   }
 }
 
@@ -21211,47 +21205,10 @@ html {
 .button_solid007 p {
   margin-bottom: 5px;
   font-weight: 600;
-  color: #db7908;
-  letter-spacing: 0.04rem;
+  color: #404040;
+  letter-spacing: 0rem;
   display: inline-block;
   position: relative;
-}
-
-.button_solid007 p:before {
-  left: -30px;
-  -webkit-transform: rotate(50deg);
-  transform: rotate(50deg);
-}
-
-.button_solid007 p:before,
-.button_solid007 p:after {
-  display: inline-block;
-  position: absolute;
-  top: 45%;
-  width: 20px;
-  height: 3px;
-  border-radius: 5px;
-  background-color: #23B802;
-  content: "";
-}
-
-.button_solid007 p:after {
-  right: -30px;
-  -webkit-transform: rotate(-50deg);
-  transform: rotate(-50deg);
-}
-
-.button_solid007 p:before,
-.button_solid007 p:after {
-  display: inline-block;
-  position: absolute;
-  top: 45%;
-  margin: 0px -10px;
-  width: 35px;
-  height: 3px;
-  border-radius: 5px;
-  background-color: #23B802;
-  content: "";
 }
 
 *,
@@ -21263,16 +21220,16 @@ html {
 .button_solid007 p {
   margin-bottom: 5px;
   font-weight: 600;
-  color: #23B802;
-  letter-spacing: 0.04rem;
+  color: #404040;
+  letter-spacing: 0rem;
   display: inline-block;
   position: relative;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .button_solid007 {
   text-align: center;
-  padding: 35px 0 13px 0;
+  padding: 0 0 35px 0;
 }
 
 .copy_color {
