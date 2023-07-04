@@ -21311,8 +21311,8 @@ input[type="button"] {
   color: #313131;
   transition: 0.3s ease-in-out;
   font-weight: 500;
-  height: 60px;
-  width: 400px;
+  height: 70px;
+  width: 470px;
   border-radius: 0;
   color: #fff;
   appearance: button;
@@ -21325,7 +21325,7 @@ input[type="button"] {
   border-radius: 50px;
   background: linear-gradient(to right, #26CA01, #1BA200) !important;
   font-family: 'Yu Gothic Medium', '游ゴシック Medium', YuGothic, '游ゴシック体', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', sans-serif;
-  font-size: 22px;
+  font-size: 25px;
   font-weight: bolder;
 }
 
