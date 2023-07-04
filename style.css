@@ -21134,7 +21134,7 @@ ul {
 
   .regist_form {
     margin: 0 5% !important;
-    border: double !important;
+    border: solid 5px #F36501 !important;
     padding: 2% !important;
     background-color: #fff !important;
   }
@@ -21146,6 +21146,38 @@ ul {
 
   .button_solid007 p {
     font-size: 11px !important;
+  }
+
+  input[type="submit"],
+  input[type="button"] {
+    background: #eee;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    /* max-width: 280px; */
+    padding: 10px 25px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+    height: 48px !important;
+    width: 265px !important;
+    border-radius: 0;
+    color: #fff;
+    appearance: button;
+    box-sizing: border-box;
+    cursor: pointer;
+    webkit-transition: all .5s;
+    transition: all .5s;
+    background: #ffa000;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(to right, #26CA01, #1BA200) !important;
+    font-family: 'Yu Gothic Medium', '游ゴシック Medium', YuGothic, '游ゴシック体', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', sans-serif;
+    font-size: 18px !important;
+    font-weight: bolder !important;
   }
 }
 
@@ -21188,7 +21220,7 @@ ul {
   font-weight: bold;
   border: solid 8px #F36501;
   border-radius: 20px;
-    /*角の丸み*/
+  /*角の丸み*/
 }
 
 .form_bg {
@@ -21245,8 +21277,8 @@ form.myForm span.required:after {
   color: white;
   content: '必須';
   display: inline-block;
-  width: 42px!important;
-  height: 28px!important;
+  width: 42px !important;
+  height: 28px !important;
   vertical-align: middle;
   background-size: contain;
   background-repeat: no-repeat;
@@ -21279,8 +21311,8 @@ input[type="button"] {
   color: #313131;
   transition: 0.3s ease-in-out;
   font-weight: 500;
-  height: 60px!important;
-  width: 400px!important;
+  height: 60px;
+  width: 400px;
   border-radius: 0;
   color: #fff;
   appearance: button;
@@ -21291,16 +21323,16 @@ input[type="button"] {
   background: #ffa000;
   border: none;
   border-radius: 50px;
-  background: linear-gradient(to right, #26CA01, #1BA200)!important;
+  background: linear-gradient(to right, #26CA01, #1BA200) !important;
   font-family: 'Yu Gothic Medium', '游ゴシック Medium', YuGothic, '游ゴシック体', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', sans-serif;
   font-size: 22px;
   font-weight: bolder;
-  }
+}
 
 
 input[type="submit"]:hover {
-  opacity: 0.7!important;
-  color: #FFF!important;
+  opacity: 0.7 !important;
+  color: #FFF !important;
 }
 
 
